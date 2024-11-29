@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoom sign up</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<style>
+    form{
+        text-align: center;
+        margin: 100px;
+    }
+    img{
+        height: 500px;
+    }
+    .content{
+        display: flex;
+        flex-direction: row;
+        padding-top: 50px;
+    }
+    .list{
+        margin: 10%;
+        box-sizing: border-box;
+        border: 2px solid white;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Oswald:wght@200..700&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    .zoom{
+        text-decoration: none;
+        padding-left: 40px;
+        font-size: 30px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+    }
+    .formy input[type="text"]{
+        padding: 1%;
+    border-radius: 5%;
+    width: 90%;
+    border: none;
+    box-shadow: 1px 2px 2px white;
+    }
+</style>
+<body>
+    <section class="content">
+    <div>
+        <img src="./signup.png" alt="zoom signup">
+        <ul class="list">
+            <h2>Create your free Basic account</h2>
+            <li>Unlimited meetings for up to 40 minutes and 100 participants each</li>
+            <li>Automated captions to help make meetings more inclusive</li>
+            <li>Secure, HD-quality audio and video</li>
+            <li>3 editable whiteboards</li>
+            <li>Team Chat for collaboration, file sharing, and more</li>
+            <li>Zoom Mail and Calendar in the Zoom app</li>
+            <li>Notes for creating and sharing editable documents</li>
+            <li>Screen sharing, virtual backgrounds, breakout rooms, and local recording</li>
+        </ul>
+    </div>
+
+    <form class="formy">
+        <h1>Let's Get Started</h1>
+        <input type="text" placeholder="Email Address" required>
+        <br><br><input type="text" placeholder="Birth Year" required>
+        <br><br><button type="button" class="btn btn-primary">Continue</button>
+        <p>By proceeding, I agree to <a href="https://www.zoom.com/en/trust/privacy/?amp_device_id=9857eb79-1a4b-4874-97f7-032e1774fd2e&amp_device_id=9857eb79-1a4b-4874-97f7-032e1774fd2e&amp_device_id=9857eb79-1a4b-4874-97f7-032e1774fd2e">Zoom's Privacy statement</a> and <a href="https://www.zoom.com/en/trust/terms/?amp_device_id=9857eb79-1a4b-4874-97f7-032e1774fd2e&amp_device_id=9857eb79-1a4b-4874-97f7-032e1774fd2e&amp_device_id=9857eb79-1a4b-4874-97f7-032e1774fd2e">Terms of Service.</a></p>
+       <p>or sign up with</p>
+       <a href="https://www.zoom.us/web/sso/login?en=signin#/sso"><button type="button"   class="btn btn-primary">SSO</button></a>
+       <a href="https://appleid.apple.com/auth/authorize?response_type=code&client_id=us.zoom.videomeetings.appleidsign&redirect_uri=https%3A%2F%2Fzoom.us%2Fapple%2Foauth&scope=name%20email&response_mode=form_post&state=VmVPeEY5cHVSZ3FhMkZFeXh2aEs0dyxhcHBsZV9zaWduaW4&_x_zm_rtaid=ZjPZo5ewQk6-YmbvBav5YA.1732803082589.17f77b10204d2b2f09441ae54bf86d43&_x_zm_rhtaid=743"><button type="button"   class="btn btn-primary">Apple</button></a>
+       <a href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?response_type=code&access_type=offline&client_id=849883241272-ed6lnodi1grnoomiuknqkq2rbvd2udku.apps.googleusercontent.com&prompt=select_account&scope=profile%20email&redirect_uri=https%3A%2F%2Fzoom.us%2Fgoogle%2Foauth&state=VmVPeEY5cHVSZ3FhMkZFeXh2aEs0dyxnb29nbGVfc2lnbmlu&_x_zm_rtaid=ZjPZo5ewQk6-YmbvBav5YA.1732803082589.17f77b10204d2b2f09441ae54bf86d43&_x_zm_rhtaid=743&service=lso&o2v=2&ddm=1&flowName=GeneralOAuthFlow"><button type="button" class="btn btn-primary" >Google</button></a>
+       <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=113289095462482&kid_directed_site=0&app_id=113289095462482&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv18.0%2Fdialog%2Foauth%3Fresponse_type%3Dcode%26client_id%3D113289095462482%26scope%3Demail%252Cpublic_profile%26redirect_uri%3Dhttps%253A%252F%252Fzoom.us%252Ffacebook%252Foauth%26state%3DVmVPeEY5cHVSZ3FhMkZFeXh2aEs0dyxmYWNlYm9va19zaWduaW4%26_x_zm_rtaid%3DZjPZo5ewQk6-YmbvBav5YA.1732803082589.17f77b10204d2b2f09441ae54bf86d43%26_x_zm_rhtaid%3D743%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3Dd3308410-0c9e-45d9-a80f-b11bde4a2613%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fzoom.us%2Ffacebook%2Foauth%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3DVmVPeEY5cHVSZ3FhMkZFeXh2aEs0dyxmYWNlYm9va19zaWduaW4%23_%3D_&display=page&locale=en_GB&pl_dbl=0"><button type="button" class="btn btn-primary">facebook</button></a>
+       <p>Zoom is protected by reCAPTCHA and the <a href="https://policies.google.com/privacy">Privacy Policy</a> and <a href="https://policies.google.com/terms">Terms of Service</a>apply.</p>
+    </form>
+    </section>
+</body>
+</html>
